@@ -1,0 +1,30 @@
+body{
+  background-color: #D6B72A;
+}
+div{
+  border: 1px solid black;
+}
+
+.jumbotron{
+  min-height: 200px;
+}
+
+.post-row{
+  min-height: 300px;
+}
+
+.post-column{
+  magin-top: 5px;
+  min-height: 280px;
+}
+
+.text-area{
+  max-width: 100%;
+}
+
+@media (max-width:768px){
+
+  .right-column{
+    display: none;
+  }
+}
