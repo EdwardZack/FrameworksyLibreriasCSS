@@ -1,12 +1,22 @@
 body{
   background-color: #D6B72A;
 }
-div{
-  border: 1px solid black;
-}
 
 .jumbotron{
   min-height: 200px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.color-columns{
+  background-color: #FFFFFF;
+}
+
+.nav{
+  background-color:#DD5E1B;
+  width: 100%;
 }
 
 .post-row{
@@ -14,17 +24,76 @@ div{
 }
 
 .post-column{
-  magin-top: 5px;
-  min-height: 280px;
+  margin-top: 10px;
+  min-height: 200px;
+}
+
+h3{
+  font-weight: bolder;
+}
+
+.img-post{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.img-logo{
+  width: 35%;
+}
+
+.btn-center{
+  margin: auto;
+}
+
+.img-redes{
+  height: 25px;
+}
+
+.input-group{
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+ul>li>a{
+  color: #000000;
 }
 
 .text-area{
-  max-width: 100%;
+  resize: vertical;
+  max-height: 100px;
+  min-height: 50px;
+}
+
+.right-column{
+  height: 100%;
+}
+
+.list-group{
+  margin-top: 30px;
 }
 
 @media (max-width:768px){
 
   .right-column{
     display: none;
+  }
+
+  .img-responsive{
+    margin-top: 0px;
+  }
+
+  .img-logo{
+    width: 35%;
+  }
+}
+
+@media (min-width:992px) {
+  .img-logo{
+    width: 100%;
+  }
+
+  .btn-group{
+    float: right !important;
   }
 }
