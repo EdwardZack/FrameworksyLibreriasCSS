@@ -11,8 +11,46 @@
 .callout{
   margin-left: auto;
   margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .titulo{
   margin-left: 15px;
+}
+
+.primary{
+  background-color: #f5611b !important;
+}
+
+.secondary{
+  background-color: #F9E94D !important;
+}
+
+.principal{
+  min-height: 500px;
+}
+
+h6{
+  color: #F9E94D;
+}
+
+p{
+  text-align: justify;
+}
+
+textarea{
+  resize: vertical;
+  max-height: 150px;
+  min-height: 50px;
+  margin-bottom: 0px;
+}
+
+.imgcomment{
+  height: 4rem;
+}
+
+.calloutcomment{
+  padding: 0.5rem !important;
+  margin: 0.3rem !important;
 }
