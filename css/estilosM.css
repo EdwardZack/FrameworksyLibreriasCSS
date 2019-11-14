@@ -1,71 +1,85 @@
-.encabezado{
-  min-height: 4rem;
+
+
+.titulo{
+  height: 6rem;
 }
 
 .logo{
-margin-top: 0.5rem;
-width: 90px;
-float: left;
+  margin-top: 2rem;
+  border-radius: 10px;
 }
 
-.campo-buscar{
-  float: left;
-  margin-left: 1rem;
+h2{
   margin-top: 0.5rem;
-  width: 70%;
+  margin-bottom: 0rem;
+  font-size: 3rem;
 }
 
-.encabezado .row{
-  margin-bottom: 0;
+.espaciado{
+  height: 3rem;
 }
 
-.grupo-botones{
+.btn-completos{
   margin-top: 1rem;
+  margin-right: 0.5rem;
+  padding-right: 0.8rem;
+  padding-left: 0.5rem;
+  font-size: 1rem;
 }
 
-#new-text{
-  resize: none;
-  border-radius: 5px;
-  border: 1px solid #212121;
-  background-color: #ff6e40;
-  height: 5rem;
-  color: #ffffff;
-}
-
-.img-noticias{
-  border: 0.6rem solid #424242;
-  border-radius: 5px;
-}
-
-.bloques{
-  height: 25rem;
-  overflow: scroll;
-}
-
-div[class*="columna"]{
-  min-height: 50rem;
-}
-
-.columna-chat, .columna-news{
-  padding: 0 !important;
-}
-
-.new-post{
-  min-height: 7rem;
-}
-
-.post{
-  min-height: 17rem;
-}
-
-.noticias{
-  min-height: 50rem;
-  padding: 0.5rem;
+.btn-incompletos{
   margin-top: 1rem;
+  margin-right: 0.3rem;
+  padding-right: 0rem;
 }
 
-@media (max-width: 600px) {
-  .contenido{
-    padding: 0 !important;
+.menuoption{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.redes{
+  width: 3rem;
+}
+
+.img-redes{
+  margin-bottom: 1rem;
+}
+
+.col-redes{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.galeria{
+  border-radius: 10px;
+}
+
+@media(min-width: 600px) and (max-width: 992px){
+
+  .btn-completos{
+    font-size: 0.5rem;
+    padding: 0px 3px;
+    float: none !important;
   }
+
+  h2{
+    font-size: 1.6rem;
+  }
+
+  .redes{
+    width: 2.5rem;
+  }
+
+}
+
+@media(max-width: 600px){
+
+  h2{
+    margin-top: 6vh;
+    font-size: 2rem;
+  }
+
+
 }
