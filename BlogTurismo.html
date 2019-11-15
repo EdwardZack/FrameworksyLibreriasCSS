@@ -10,16 +10,16 @@
     <link type="text/css" rel="stylesheet" href="css/NewColors.css"  media="screen,projection"/>
     <link href="css/estilosM.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-    <title></title>
+    <title>Turismo Colombia</title>
   </head>
-  <body>
+  <body class="green lighten-1" style="background-image: url(img/paisajefondo.jpg);background-repeat: no-repeat; background-attachment: fixed; background-size:cover; background-position: 0px 12rem;">
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
 
     <div class="row">
-      <div class="col s12 m11 offset-m1 red darken-4 white-text">
+      <div class="col s12 m11 offset-m1 white-text">
         <div class="row">
           <div class="col s5 m4 l2">
             <img src="img/turismo.jpg" alt="Logo" class="responsive-img logo z-depth-1">
@@ -38,7 +38,7 @@
                     <i class="material-icons left">star</i>
                   </button>
                   <button class="btn waves-effect waves-light btn-completos">Recomendados
-                    <i class="material-icons left">devices</i>
+                    <i class="material-icons left">speaker_notes</i>
                   </button>
                 </div>
                 <div class="hide-on-med-and-up right menuoption">
@@ -52,7 +52,7 @@
                     <i class="material-icons left">star</i>
                   </button>
                   <button class="btn waves-effect waves-light btn-incompletos">
-                    <i class="material-icons left">devices</i>
+                    <i class="material-icons left">speaker_notes</i>
                   </button>
                 </div>
               </div>
@@ -69,8 +69,6 @@
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
 
@@ -92,7 +90,7 @@
             <img src="img/balsa.jpg" alt="Amazonas" class="responsive-img z-depth-1">
           </div>
           <div class="col s12 m4 l4">
-            <img src="img/cartagena.webp" alt="Cartagena" class="responsive-img z-depth-1">
+            <img src="img/cartagena.jpg" alt="Cartagena" class="responsive-img z-depth-1">
           </div>
           <div class="col s12 m3 l4">
             <img src="img/canocrisales.jpg" alt="Caño crisales" class="responsive-img z-depth-1">
@@ -102,6 +100,82 @@
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col s12 m8 l9">
+          <div class="row">
+            <div class="col s12 card grey lighten-3 z-depth-1 relleno">
+              <div>
+                <div class="card-image blog-img">
+                  <img src="img/sanbernardo-momias.jpg" class="responsive-img">
+                </div>
+              </div>
+              <div>
+                <div>
+                  <span class="card-title">Las momias de San Bernardo</span>
+                </div>
+                <div class="chip">
+                  10 de Noviembre de 2019
+                  <i class="material-icons">date_range</i>
+                </div>
+                <div class="chip">
+                  San Bernardo Cundi., Colombia
+                  <i class="material-icons">location_on</i>
+                </div>
+                <p class="blog-content flow-text">A tres horas de Bogotá, existe uno de los pocos lugares en el mundo donde sus muertos se momifican. Se trata de San Bernardo, un municipio que se volvió famoso porque al exhumar los cuerpos del cementerio, descubrieron que muchos de ellos no se descomponían, sino que se cristalizaban por las condiciones naturales. Con autorización de los familiares, crearon un museo con estas momias en 1998, que además fue declarado como Patrimonio Cultural municipal.</p>
+                <p class="blog-content flow-text">Hoy quedan alrededor de 10 cuerpos muy bien conservados, expuestos para que los turistas curiosos vayan a ver el proceso de momificación que se da en el lugar, que fue totalmente natural. Dicen sus habitantes que los cuerpos en San Bernardo no son sometidos a procesos químicos para momificarlos: "esto pasa porque algunos cuerpos se congelan dentro de las tumbas", explican. El clima de San Bernardo no es tan frío para que suceda, y eso resulta llamativo.
+                Ir a ver las momias es un plan corto, pero podría ser un desvío emocionante si vas desde Bogotá a municipios como Pandi, Chinauta, Melgar o Girardot. Los paisajes y olores florales y vegetales en el camino serán un aliciente. Además, la fritanga de San Bernardo, en la plaza de mercado, es muy recomendable.</p>
+              </div>
+              </div>
+              <div class="col s12 card green lighten-1 z-depth-1 relleno">
+                <div class="row">
+                  <div class="col s12">
+                    <h5>Deja tu comentario</h5>
+                  </div>
+                </div>
+                <form>
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">perm_identity</i>
+                      <input id="nombre" type="text" class="validate" required>
+                      <label for="nombre" class="white-text">Nombre y Apellido</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">email</i>
+                      <input id="email" type="text" class="validate" required>
+                      <label for="email" class="white-text" data-success="correcto" data-error="Campo necesario">E-mail</label>
+                    </div>
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">comment</i>
+                      <textarea id="comentario" class="materialize-textarea" required></textarea>
+                      <label for="comentario" class="white-text">Comentario</label>
+                    </div>
+                    <div class="input-field col s12 m4 offset-m8 center-align">
+                      <button type="submit" class="btn">Enviar</button>
+                    </div>
+
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s10 offset-s1 m4 l3">
+            <div class="card center-align grey lighten-3">
+              <div>
+                <img src="img/foto.jpg" class="circle img-perfil responsive-img">
+              </div>
+              <span class="card-title"><strong>Por: </strong>Edward Mora</span>
+              <hr>
+              <div class="card-content">
+                <p>Soy ingeniero de sistemas, egresado de la Universidad San José ubicada en Bogotá, Colombia.</p>
+                <p>Me encantan viajar sobre dos ruedas, salir y conocer nuevas culturas, tradiciones, religiones, personas y disfrutar de la naturaleza por toda Colombia. Tanto si salgo solo, con mi familia o con otros moteros, me gusta disfrutar al máximo de cada lugar al que llego y socializar anécdotas con otras personas.</p>
+                <p>Soy de los viajeros que prefieren ver con los ojos que a través de una cámara fotográfica o un celular y tras cada viaje me gusta escribir en mi blog para dar a conocer los diferentes lugares que he visitado y mis experiencias en ellos.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
 
   </body>
 </html>

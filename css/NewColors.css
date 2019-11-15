@@ -1,7 +1,16 @@
-.collection a.collection-item{
-  color: #b71c1c;
+.btn{
+  background-color: #1b5e20;
 }
 
-.collection a.collection-item span{
-  color: #01579b;
+.btn:hover, button:focus{
+  background-color: #69f0ae !important;
+}
+
+
+input, textarea, input:focus, textarea:focus{
+  border-bottom: 1px solid white !important;
+}
+
+.prefix.active{
+  color: #1b5e20 !important;
 }
