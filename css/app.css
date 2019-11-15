@@ -1,4 +1,4 @@
-
+/* Color con opacidad para el contenido */
 .contenido{
   background: rgba(128, 128, 128, 0.7);
 }
@@ -43,6 +43,7 @@ p{
   text-align: justify;
 }
 
+/* Limite tamaño textareas  */
 textarea{
   resize: vertical;
   max-height: 150px;
@@ -50,6 +51,7 @@ textarea{
   margin-bottom: 0px;
 }
 
+/* Tamaño imagenes en los comentarios */
 .imgcomment{
   height: 4rem;
 }

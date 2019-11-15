@@ -14,10 +14,7 @@ h2{
   text-shadow: 2px 2px 2px black;
 }
 
-.espaciado{
-  height: 3rem;
-}
-
+/* Estilo menú opciones pantallas grandes y medianas */
 .btn-completos{
   margin-top: 1rem;
   margin-right: 0.5rem;
@@ -26,26 +23,31 @@ h2{
   font-size: 1rem;
 }
 
+/* Estilo menú opciones pantallas pequeñas */
 .btn-incompletos{
   margin-top: 1rem;
   margin-right: 0.3rem;
   padding-right: 0rem;
 }
 
+/* Desenso botones menú opciones a la derecha */
 .menuoption{
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
 }
 
+/* Estilo contenedor redes sociales */
 .redes{
   width: 3rem;
 }
 
+/* Estilo logos redes sociales */
 .img-redes{
   margin-bottom: 1rem;
 }
 
+/* Visualización redes sociales en vertical */
 .col-redes{
   display: flex;
   flex-flow: column wrap;
@@ -69,15 +71,17 @@ h2{
   width: 50%;
   margin-top: 1rem;
 }
-
+/* Borde para los posts */
 .relleno{
   padding: 10px !important;
 }
 
+/* Sombreado para los titulos */
 .card-title{
     text-shadow: 1px 1px 1px black;
 }
 
+/* Estilos pantallas medianas */
 @media(min-width: 600px) and (max-width: 992px){
 
   .btn-completos{
@@ -96,6 +100,7 @@ h2{
 
 }
 
+/* Estilos pantallas pequeñas */
 @media(max-width: 600px){
 
   h2{

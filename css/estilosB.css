@@ -2,6 +2,7 @@ body{
   background-color: #D6B72A;
 }
 
+/* Estilos encabezado */
 .jumbotron{
   padding-bottom: 0px;
   background-color: #ffffff;
@@ -59,10 +60,12 @@ h3{
   padding: 5px;
 }
 
+/* Cambio color texto menú */
 ul>li>a{
   color: #000000;
 }
 
+/* Limite tamaño textareas */
 .text-area{
   resize: vertical;
   max-height: 100px;
@@ -77,6 +80,7 @@ ul>li>a{
   margin-top: 30px;
 }
 
+/* Estilos pantallas pequeñas */
 @media (max-width:768px){
 
   .right-column{
@@ -92,6 +96,7 @@ ul>li>a{
   }
 }
 
+/* Estilo pantallas medianas */
 @media (min-width:992px) {
   .img-logo{
     width: 100%;
